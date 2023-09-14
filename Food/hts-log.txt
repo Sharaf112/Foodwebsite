@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 14 Sep 2023 09:31:29 at https://demo.foodking.dev/#/home +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://demo.foodking.dev/#/home -O1 "C:\Users\shara\Desktop\clone 02\Food" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:31:51	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/robots.txt (from primary/primary)
+09:31:51	Warning: 	Retry after error -5 (Unable to get server's address: Ingen sådan värd är känd. ) at link primary/home (from primary/primary)
+09:32:11	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link primary/home (from primary/primary)
+09:32:13	Error: 	"Not Found" (404) at link https://demo.foodking.dev/themes/default/images/bg/installer.jpg (from https://demo.foodking.dev/themes/default/css/style.css)
+09:32:13	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/home (from primary/primary)
+
+HTTrack Website Copier/3.49-2 mirror complete in 44 seconds : 54 links scanned, 48 files written (12646483 bytes overall) [3826405 bytes received at 86963 bytes/sec], 10104781 bytes transferred using HTTP compression in 17 files, ratio 12%, 5.5 requests per connection
+(3 errors, 2 warnings, 0 messages)
